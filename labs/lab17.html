@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lab 17 : printing and mobile devices</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Aparna Kulkarni">
+		<meta name=" viewport" content=" width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="lab16.css" media="screen">
+	</head>
+	
+	<body>
+		<section id="page">	
+		<header class="text_alignment">
+		<h1>  Evil twins and possible risks related to Wi-Fi hotspot </h1>
+		</header>
+		
+			<article id="section1">
+			<hgroup>
+			<h3> How to Avoid an Evil Twin Attack</h3>
+			</hgroup>
+			<ol>
+				Wireless security concerns don't seem to be slowing hotspot growth. In 3Q09, AT&T hotspots serviced over 25 million Wi-Fi sessions – 66 percent more than in 2Q09. Aircell now offers in-flight Wi-Fi service on over 4,000 flights per day. In my hometown (Philadelphia), Comcast just launched over 2000 new Xfinity hotspots.
+				Yet, few public hotspots protect users from wireless security threats like eavesdropping, spoofing, or evil twin attacks. Good hotspots protect login values like usernames, passwords, and credit card numbers. But after login, data privacy is often up to the user.
+				Hotspot data theft is well-understood and easily defeated with SSL websites and VPN connections. But the same cannot be said for evil twins – hacker access points that use real network names (SSIDs) to bait users into connecting to them. Here we describe the symptoms of an evil twin attack and how to avoid falling for them.
+				<li>    <strong>Dubious DNS</strong>	To execute man-in-the-middle attacks, evil twins can use their own DNS to 
+				redirect user traffic to spoofed application servers. For example, if a hotspot-supplied DNS resolves
+				all Web requests to URLs that include or correspond to non-routable private IP addresses 
+				(e.g., 192.168.x.x), that's not a good sign. While this could be something as innocent as 
+				a local Web cache, exercise caution.</li>
+				<li>   <strong> Unfamiliar behavior</strong>
+				If an evil twin succeeds in directing Web requests to a spoofed site, it's up to you to authenticate that
+				server. If you visit a familiar but unsecured site that looks slightly broken or behaves in an unusual 
+				way, it could just be undergoing maintenance or an update. Or it could be a hacked copy of the real site.
+				Alas, for unsecured sites, there's no fool-proof way to be sure.</li>
+				<li>    <strong> Bad certs</strong>
+				Fortunately, secure Web servers can be authenticated by digital certificate. Your browser will even try 
+				to validate the server's certificate for you. But if a certificate warning appears, don't ignore it. 
+				Legitimate sites occasionally trigger these, but you could well have landed at a phony Web server designed
+				to steal identities or spread malware. In particular, never blindly accept a self-signed certificate 
+				or a certificate issued by an untrusted authority.</li>
+				<li>  <strong>  Phony servers </strong>
+				Of course, spoofing isn't limited to Web servers. Evil twins can use free tools like karmetasploit to 
+				redirect email and file and other apps to phony servers that record logins, passwords, and message content.
+				Fortunately, many apps support server authentication – for example, sending POP and SMTP and FTP over TLS.
+				To avoid falling for man-in-the-middle attacks, seize every opportunity to verify app server credentials.</li>
+				<li>   <strong>Out-of-service VPNs</strong>
+				Most man-in-the-middle attacks an evil twin might attempt can be defeated by sending all traffic – even 
+				public Internet traffic – over a VPN. If a hotspot lets you connect to the Internet but not to your VPN, 
+				you might be tempted to make do – but don't. While some real hotspots interfere with VPN protocols,
+				this is a rare exception. It could be an evil twin using a phony IPsec VPN gateway to grab vulnerable 
+				IDs and shared secrets. For reliable protection against this attack, use an always-on VPN with strong 
+				mutual authentication.</li> 
+				</ol>	
+			</p>
+			<hr>
+			<h2> Dangers of HOtSpot</h2>
+				<p>An Evil Twin hotspot is a Wi-Fi access point set up by a hacker or cybercriminal. It is meant to mimic a legitimate hotspot provided by a business, such as a coffee shop that provides free Wi-Fi access to its patrons.
+				An Evil Twin hotspot mimics a legitimate hotspot in just about every way, but its intentions are more sinister in nature.
+				Hackers and/or cybercriminals create Evil Twin hotspots to allow them to both eavesdrop on network traffic and insert themselves into the data conversation between the victims and the servers that the victims access while connected to the Evil Twin hotspot.
+				By imitating a legitimate hotspot and tricking users into connecting to it, a hacker or cybercriminal 
+				can then steal account names and passwords and redirect victims to malware sites, phishing sites, 
+				etc. The perpetrators can also view the contents of files that the victims download or upload while 
+				they are connected to the Evil Twin access point.
+			</p>
+			
+			</article>
+			<hr>
+			<article>
+				<h2>How can I Tell if I'm Connecting to an Evil Twin vs. a Legitimate Hotspot?</h2>
+				<P>You likely won't be able to tell whether your connecting to a good hotspot or a bad one.
+				Hackers will make every effort to use the same SSID name as the legitimate access point. They often go a step further and clone the MAC address of the true access point so that they will be seen as a Base Station Clone which further strengthens the illusion.
+				The Evil Twin hotspot owner may attempt to boost his or her hotspot's signal strength so that it overpowers the legitimate one.
+				Hackers don't have to setup a big ugly hardware-based access point to create an Evil Twin hotspot.
+				Hackers can use hotspot emulating software that utilizes the Wi-Fi network adapter in their notebook 
+				PC as the hotspot. Having this level of portability and concealment allows them to position themselves
+				nearer to a potential victim which may help them to overpower the signal coming from the legitimate
+				access point.</P>
+			</article>
+			<hr>
+			<article><h2>SEcurity Threats</h2><P>
+			2.    Denial of Service: WLANs are inherently vulnerable to DoS. Everyone shares the same unlicensed frequencies, making competition inevitable in populated areas. The good news: As enterprise WLANs migrate to 802.11n, they can use channels in the larger, less-crowded 5 GHz band, reducing “accidental DoS.” Moreover, contemporary access points (APs) can auto-adjust channels to circumvent interference. But that still leaves DoS attacks: Phony messages sent to disconnect users, consume AP resources, and keep channels busy. To neutralize common DoS attack methods like Deauth Floods, look for newer products that support 802.11w management frame protection.
+			3.    Rogue APs: Business network penetration by unknown, unauthorized APs has long been a top worry. Fortunately, most enterprise WLANs now use legitimate APs to scan channels for possible rogues in their spare time. Unfortunately, verifying “true rogues” by tracing their wired network connectivity is a skill that ordinary WLAN gear has yet to perfect. Without accurate classification, automated rogue blocking is a risky proposition. To not just detect, but effectively mitigate rogue APs, deploy a Wireless IPS that can reliably differentiate between harmless neighbors, personal hotspots, and network-connected rogues that pose real danger, taking policy-based action to trace, block, and locate the latter.
+			4.    Wireless Intruders: Wireless IPS products like Motorola AirDefense, AirMagnet, and AirTight can also detect malicious Wi-Fi clients operating in or near a business’ airspace. However, truly effective defense requires up-to-date, properly deployed WIPS sensors. In particular, 802.11a/b/g sensors must be updated to monitor new 5 GHz channels (including 40 MHz channels), parse 802.11n protocols, and look for new 802.11n attacks. Furthermore, because 802.11n clients can connect from farther away, WIPS sensor placement must be reviewed to satisfy both detection and prevention needs.
+			5.    Misconfigured APs: Back when standalone APs were individually-managed, configuration errors posed a significant security threat. Today, most enterprise WLANs are centrally-managed, using coordinated updates and periodic audits to decrease TCO, improve reliability, and reduce risk. But 802.11n adds a slew of relatively complex config options, the consequences of which depend on (highly variable) Wi-Fi client capabilities.  Prioritization and segmentation for multi-media further complicates configuration. The answer here: Combine sound, centralized management practices with 802.11n/WMM education and planning to reduce operator error.
+			6.    Ad Hocs and Soft APs: Wi-Fi laptops have long been able to establish peer-to-peer ad hoc connections 
+			that pose risk because they circumvent network security policies. Fortunately, ad hocs were so hard to
+			configure that few bothered to use them. Unfortunately, that barrier is being lifted by “soft APs” in
+			Windows 7 and new laptops with Intel and Atheros Wi-Fi cards. Those virtual APs can provide easy, 
+			automated direct connections to other users, bypassing network security and routing traffic onto the 
+			enterprise network. Measures used to deter Ad Hocs may also prove useful against unauthorized Soft 
+			APs, such as IT-managed client settings and WIPS.</P>
+			</article>
+		
+		</section>		
+		<footer class="text_alignment">
+			<h2 id="copyicon"> &copy  Aparna Kulkarni</h2>
+		</footer>
+			
+	</body>
+
+</html>

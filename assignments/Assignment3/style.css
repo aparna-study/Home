@@ -1,0 +1,133 @@
+@media only screen and (min-width: 320px)
+and (max-width: 480px) {
+  p {
+      background-color: #99FFCC;
+     color: #993300;
+     font-size: 10px;
+     font-weight: bold;
+     font-family:Georgia;
+    
+    }
+	.feature{
+		padding-left:3%;
+	}
+	img{
+		width:40%;
+	}
+  }
+ 
+
+@media only screen and (min-width: 480px) {
+  p {
+     background-color: #FF9900;
+     color: #006600;
+     font-size: 14px;
+     font-weight: bold;
+     font-family:Georgia;
+         }
+	img{
+		width:50%;
+	}
+ }
+
+@media only screen and (min-width: 640px)
+and (max-width: 767px)
+{
+  p {
+      background-color: #6699FF;
+     color: #003399;
+     font-size: 16px;
+     font-weight: bold;
+    font-family:Georgia;
+    }
+	img{
+		width:40%;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+  p {
+     background-color: #4DB197;
+     color: #285028;
+     font-size: 18px;
+     font-weight: bold;
+    font-family:Georgia;
+    }
+	
+}
+body {  
+	background-color:#99FFCC;
+	font-style:normal;
+	font-size:medium;
+	font-family:Arial;
+	font-weight:normal;
+	color:#800000;
+	text-align: justify;
+	text-justify: inter-word;
+	
+	
+}
+
+h1{
+font-style:italic;
+	font-size:45pt;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	background-color:#FFCCCC;
+	letter-spacing: 5pt;
+	color:#6600FF;
+	font-variant: small-caps;
+	background-image: url(logo.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+h2{
+	font-style:italic;font-weight: bold;
+	text-align:center;
+	color:#CC0099;
+}
+
+.span{
+	word-spacing:10px;
+	font-size:14pt;
+	color:#FF0066;
+}
+#block{ 
+	display:bock;
+}
+h3{
+	text-decoration:underline;
+	font-size:14pt;
+	font-weight: bold;
+	color:#CC0066;
+}
+h5{
+	text-align:right;
+	font-weight:bold;
+}
+a:hover {
+	font-weight:bolder;
+	color:#660033;
+	text-decoration:underline;
+	background-color:#66FFFF;
+	
+}
+a{
+	text-indent:center;
+	font-style:italic;
+	background-color:#FFCCCC;
+	font-size:16pt;
+}
+
+hr{
+	text-align:left;
+	background-color:#FF6600;
+	height:5px;
+}
+.highlight{font-weight:bold;text-decoration:underline;}
+.text_alignment{text-align:center;}
+

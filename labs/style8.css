@@ -1,0 +1,53 @@
+ul {
+	list-style-type:square; 
+	font-style: italic; 
+	font-weight: bold;
+}
+
+ol{font-weight: bold;}
+
+
+body {
+background-color:#FF99FF;
+font-style:normal;
+font-size:medium;
+font-family: Arial;
+font-weight:normal;
+color:#000066;
+}
+h1{
+color:#660033;
+font-style:italic;
+font-size:25pt;
+font-family:"Lucida Handwriting";
+font-weight: bold;
+text-align:center;
+background-color:#FFCCCC;
+}
+section {
+	color:#800000; 
+	background-color:#CCFF99;
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+ }
+ dt{
+ color:#CC0066;
+ font-weight:bold;
+ }
+ h2{
+color:#333300;
+font-family:"Lucida Handwriting";
+font-weight: bold;
+text-align:left;
+}
+ 
+h3{
+color:#CC0066;
+font-weight: bold;
+text-align:left;
+}
+

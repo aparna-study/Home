@@ -1,0 +1,143 @@
+
+.h2item1{
+	color:#FF9900;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:left;
+	font-style:italic;
+}
+ 
+ 
+.h2item2{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	color:#E60000;
+	font-style:italic;
+	
+} 
+.h2item3{
+	color:#004000;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:left;
+	font-style:italic;
+}
+
+#figflash{
+	margin: 0px 30px 20px 30px;
+	border:8px dotted #FF5B00; 
+	border-width: 10px;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+}
+#figflashcap{
+	float:right;
+	text-align:center;
+}
+#hr1{
+	background-color:#00CC00; 
+	width:100%; 
+	height:4pt; 
+}
+#hr2{
+	background-color:#FF6600; 
+	width:100%; height:4pt;
+	
+}
+
+
+#section1{
+
+	color:#0C2C52;
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	float:left;
+	margin-left: 20px;
+    margin-right: 20px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+#section2{
+	color:#007845;
+	font-size:14pt;
+	border:10px solid #CC3333;
+	border-width: 5px;
+	padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	float:right;
+	margin-left: 15px;
+    margin-right: 15px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	
+}
+aside{
+	background-color:#7F5E17;
+	color:#CBFFFA;
+	padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	float:right;
+	margin-left: 45px;
+    margin-right: 45px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+	color:#800000; 
+ }
+ 
+ ul.outside {list-style-image:url(Goal1.jpg);
+         
+}
+ul.mylist {list-style-image:url(Goal2.PNG);
+         
+}
+body {
+	background-color:#CCCC99;
+	font-style:normal;
+	font-size:medium;
+	font-family: Arial;
+	font-weight:normal;
+	color:#C86000;
+	text-align:justify;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	font:4em Arial, Verdana, sans-serif;
+	color:#660033;
+	font-style:italic;
+	font-size:25pt;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+}
+
+
+
+#copyicon{
+	background-size:contain;
+	height:30px;
+	width:20%;
+	margin-left: auto;
+    margin-right: auto;
+	color:#192B33;
+	
+}
+.text_alignment{
+text-align:center;
+}

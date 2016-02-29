@@ -1,0 +1,65 @@
+
+body {
+	background-image:url(OlympicRings.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	font-style:normal;
+	font-size:medium;
+	font-family: Arial;
+	font-weight:normal;
+	color:#000066;
+}
+
+h1{
+	color:#333300;
+	font-style:italic;
+	font-size:25pt;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#CD6607;
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px 3px #999;
+	opacity: 0.9;
+	width:80%;
+}
+section {
+	border:5px ridge #B1B17B; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	margin-left:200px;
+	margin-right:200px;
+	text-align:center;
+}
+ 
+ #auback{
+	background-color:wheat;
+ }
+
+ h2{
+	color:#800000;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	background-color:#CD6607;
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px 3px #999;
+	opacity: 0.9;
+}
+ 
+
+#copyicon{
+	border-radius: 20px;
+	box-shadow: 3px 3px 3px 3px #999;
+	opacity: 0.9;
+	text-align:center;
+	background-color:#CD6607;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}

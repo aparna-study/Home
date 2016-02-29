@@ -1,0 +1,203 @@
+body{
+  
+  background-color:#EBB035;
+  text-align:justify;
+}
+h1{
+	color:#660033;
+	font-style:italic;
+	font-size:30pt;
+	border-radius: 10pt;
+	width:80%;
+	border:5px ridge #B57D29;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	background-color:#027878;
+}
+@-webkit-keyframes corners {
+
+		0% {
+			top:0px;
+			left:0px;
+			background:red;
+		}
+
+		100% {
+			top:0px;
+			left:90%;
+			background:green;
+		}
+}
+.container {
+		
+		position:relative;
+	}
+.box {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: absolute;
+	animation-name: corners;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+.box:hover {
+	-webkit-animation-play-state:paused;
+	animation-play-state:paused;
+	}
+span {
+			position: absolute;
+			float: left;
+			-webkit-transform-origin: 0 0;
+		}	
+span:nth-child(1) {
+	display: block;
+	-webkit-transform: rotate(-90deg);
+	text-transform: uppercase;
+	font: 2em bebas;
+	letter-spacing: 0.2em;
+	bottom:2%;
+}
+		
+section{
+	background-color:#E6E6E6;
+	padding: 20px;
+	font-size:12pt;
+	border-radius: 20px;
+	border:5px ridge #B57D29;
+	box-shadow: 1px 1px 2px 2px #999;
+	display: block;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	-webkit-transition-property: background,border-radius;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease;
+-webkit-transition-delay: 1s;
+}
+section:hover,section:focus {
+background: lightpink; opacity:0.99;
+border-radius : 15%;
+}
+
+p{
+	background: -webkit-linear-gradient(transparent 49%, black 49%, transparent 50%) gray;
+			
+}
+p:nth-child(1) { -webkit-transform: skewX(15deg);
+	background-color: purple;
+	margin: 30px;
+	padding:10px;
+ }
+@media only screen and (min-width: 320px) {
+  p {
+      
+     font-size: 10px;
+     font-weight: bold;
+     font-family:Georgia;
+    
+    }
+  }
+ 
+
+@media only screen and (min-width: 480px) {
+  p {
+     
+     font-size: 14px;
+     font-weight: bold;
+     font-family:Georgia;
+         }
+ }
+
+@media only screen and (min-width: 640px)
+and (max-width: 767px)
+{
+  p {
+      font-size: 16px;
+     font-weight: bold;
+    font-family:Georgia;
+    }
+}
+.feature{ border: 3px dashed red;
+
+-webkit-transition: background .35s ease, color linear;
+-moz-transition: background .35s ease, color 0.5s linear;
+-o-transition: background .35s ease, color 0.5s linear;
+transition-property: background, border-radius;
+-webkit-transition-property: background, border-radius;
+transition-duration: 2s, 6s;
+-webkit-transition-duration: 2s, 6s;
+
+}
+
+.feature:hover,
+.feature:focus {
+color: red;
+background: lightblue; opacity:1;
+border-radius:20%;
+}
+
+
+
+.featurealternate{-webkit-transition-property: background;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease;
+-webkit-transition-delay: 1s;
+}
+
+.featurealternate:hover, .featurealternate:focus{
+color: yellow;
+background: #9933FF; opacity:1;
+border-radius: 20%; 
+}
+@media only screen and (min-width: 768px) {
+  p {
+     font-size: 18px;
+     font-weight: bold;
+    font-family:Georgia;
+    }
+}
+
+a.foo {
+padding: 5px 10px;
+font-size: 36pt;
+-webkit-transition: background .3s ease, color 0.2s linear;
+-moz-transition: background .3s ease, color 0.2s linear;
+-o-transition: background .3s ease, color 0.2s linear;
+transition: background .3s ease, color 0.2s linear;
+}
+a.foo:hover,
+a.foo:focus {
+color: #003300;
+background: yellow;
+}
+
+nav{
+	background-color:#3ABBC9;
+	padding:5px;
+	word-spacing:10px;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	color:#FFFFFF;
+}
+a{
+	text-indent:center;
+	font-size:20pt;
+	font-style:italic;
+	color:#FFFFFF;
+}
+
+hr{
+	text-align:left;
+	background-color:#FF6600;
+	height:5px;
+}
+
+.text_alignment{text-align:center;}
+

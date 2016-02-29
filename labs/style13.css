@@ -1,0 +1,60 @@
+#section1{
+	background-color:#FFC65D;
+	margin: 10px;
+	padding: 10px;
+	font-size:12pt;
+	border-radius: 20px;
+	border:5px ridge #B57D29;
+	box-shadow: 1px 1px 2px 3px #999;
+	opacity: 0.9;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+h1{
+color:#660033;
+font-style:italic;
+font-size:25pt;
+border-radius: 40%;
+width:50%;
+margin-left:auto;
+margin-right:auto;
+border:5px ridge #B57D29;
+font-family:"Lucida Handwriting";
+font-weight: bold;
+text-align:center;
+background-color:#F16745;
+}
+label{
+	font-weight:bolder;
+}
+input.text{
+	width:70%;
+}
+#interestcomm{ 
+	width="100%"
+}
+
+
+input.button{
+color:#660033;
+width:49%;
+font-size:25pt;
+border:5px ridge #B57D29;
+font-weight: bold;
+text-align:center;
+background-color:#F16745;
+
+}
+
+
+body {
+	font-size:medium;
+	font-family: Arial;
+	color:#006666;
+	text-align:justify;
+}
+
+

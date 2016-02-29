@@ -1,0 +1,97 @@
+ul {
+	list-style-type:square; 
+	font-style: italic; 
+	font-weight: bold;
+}
+
+body {
+background-color:#FF99FF;
+font-style:normal;
+font-size:medium;
+font-family: Arial;
+font-weight:normal;
+color:#000066;
+text-align:justify;
+}
+h1{
+	background:  url(toy_story_image2.gif) no-repeat center;
+	height: 250px; 
+	font:4em Arial, Verdana, sans-serif;
+	color:#660033;
+	font-style:italic;
+	font-size:25pt;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	  margin-left: auto;
+    margin-right: auto;
+     border-color: coral;
+     border-style: groove;
+     border-width: 20px 10px;
+     padding: 15px 25px;
+	 width: 30%; 
+}
+nav{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	background-color:#99FF33;
+	
+}
+.bgimage2{
+	background: url(toy_story11.PNG) repeat-x;
+}
+#bgpara{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#figbox3{
+	margin: 0px 15px 20px 15px;
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	
+}
+#figbox3cap{
+	float:right;
+	text-align:center;
+}
+section {
+	color:#800000; 
+	background-color:#99FFCC;
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+ }
+
+ h2{
+color:#333300;
+font-family:"Lucida Handwriting";
+font-weight: bold;
+text-align:left;
+}
+ 
+a:hover {
+	font-weight:bolder;
+	color:#660033;
+	text-decoration:underline;
+	background-color:#66FFFF;
+	font-size:16pt;
+}
+#copyicon{
+	background-color:coral;
+	background-size:contain;
+	height:30px;
+	width:20%;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+.text_alignment{
+text-align:center;
+}

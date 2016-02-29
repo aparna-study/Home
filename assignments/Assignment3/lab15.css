@@ -1,0 +1,97 @@
+#section1{
+	background-color:#D5E1DD;
+	margin: 10px;
+	padding: 10px;
+	font-size:12pt;
+	border-radius: 20px;
+	border:5px ridge #B57D29;
+	box-shadow: 1px 1px 2px 3px #999;
+	
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	
+}
+
+#section2{
+	background-color:#D5E1DD;
+	margin: 10px;
+	padding: 10px;
+	font-size:12pt;
+	border-radius: 20px;
+	border:5px ridge #B57D29;
+	box-shadow: 1px 1px 2px 3px #999;
+	opacity: 0.9;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	
+}
+
+h1{
+	color:#660033;
+	font-style:italic;
+	font-size:30pt;
+	border-radius: 40%;
+	border:5px ridge #B57D29;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	background-color:#77BED2;
+	background-image: url(logo.PNG);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+label{
+	font-weight:bolder;
+}
+input.text{
+	width:70%;
+}
+
+input.button{
+color:#660033;
+width:49%;
+font-size:25pt;
+border:5px ridge #B57D29;
+font-weight: bold;
+text-align:center;
+background-color:#AFEAAA;
+
+}
+
+
+body {
+	font-size:medium;
+	font-family: Arial;
+	color:#E07628;
+	text-align:justify;
+	background-image:url(back.PNG);
+}
+a:hover {
+	font-weight:bolder;
+	color:#660033;
+	text-decoration:underline;
+	background-color:#66FFFF;
+	
+}
+a{
+	text-indent:center;
+	font-style:italic;
+	background-color:#FFCCCC;
+	font-size:16pt;
+}
+
+hr{
+	text-align:left;
+	background-color:#FF6600;
+	height:5px;
+}
+.highlight{font-weight:bold;text-decoration:underline;}
+.text_alignment{text-align:center;}
+

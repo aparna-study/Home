@@ -1,0 +1,240 @@
+ul {
+	list-style-type:square; 
+	font-style: italic; 
+	font-weight: bold;
+	font-size:16pt;
+	
+}
+.h2item1{
+	color:#FF9900;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:left;
+	font-style:italic;
+}
+ 
+.h2item2{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	color:#E60000;
+	font-style:italic;
+	
+} 
+.h2item3{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:right;
+	color:#730000;
+}
+.h2island{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:left;
+	color:#FFFFCC;
+}
+.h2movies{
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+	color:#333300;
+}
+
+#cloth{
+	margin: 0px 30px 20px 30px;
+	border:8px double #FF6600; 
+	border-width: 10px;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#figclothcap{
+	float:right;
+	text-align:center;
+}
+
+#figflash{
+	margin: 0px 30px 20px 30px;
+	border:8px dotted #FF5B00; 
+	border-width: 10px;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+	
+}
+#figflashcap{
+	float:right;
+	text-align:center;
+}
+#hr1{
+	background-color:#00CC00; 
+	width:100%; 
+	height:2pt; 
+}
+#hr2{
+	background-color:#FF6600; 
+	width:20%; height:4pt;
+	
+}
+
+#hr3{
+	background-color:#FF5B00;
+	width:15%;
+	height:5pt; 
+	
+}
+#hr4{
+	background-color:#FFB85F;
+	width:100%; 
+	height:4pt; 
+}
+#hr5{
+	background-color:#CC3300;
+	height:3pt
+}
+#section1{
+	background-color:#CC3333;
+	color:#FFCC00;
+}
+#section2{
+	color:#003333;
+	font-weight:bold;
+	font-size:14pt;
+	background: url(item2back.PNG) repeat-x;
+}
+
+#section3{
+	color:#FF3300;
+	font-weight:bold;
+	font-size:15pt;
+	background-color:#E6E6E6;
+}
+#section4{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:13pt;
+	background-color:#FF704D;
+	background: url(item4back.PNG) repeat-x;
+	
+}
+
+#section5{
+	color:#FF3300;
+	font-weight:bold;
+	font-size:11pt;
+	background-color:#33FF33;
+}
+section {
+	color:#800000; 
+	background-color:#99FFCC;
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	
+ }
+body {
+	background-color:#19FFD1;
+	font-style:normal;
+	font-size:medium;
+	font-family: Arial;
+	font-weight:normal;
+	color:#333300;
+	text-align:justify;
+}
+
+h1{
+	font:4em Arial, Verdana, sans-serif;
+	color:#660033;
+	font-style:italic;
+	font-size:25pt;
+	font-family:"Lucida Handwriting";
+	font-weight: bold;
+	text-align:center;
+}
+
+header{
+	background:  url(islandheader.gif) no-repeat center;
+	height: 300px; 
+	margin-left: auto;
+    margin-right: auto;
+    border-color: coral;
+    border-style: groove;
+    border-width: 20px 10px;
+    padding: 15px 25px;
+	width: 70%; 
+}
+nav{
+	font-family:"Arial";
+	font-weight: bold;
+	color:#000099;
+	
+}
+
+
+#figbox3{
+	margin: 0px 25px 20px 25px;
+	border:8px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+		
+}
+#figbox3cap{
+	float:right;
+	text-align:center;
+}
+
+
+h3{
+color:#FFFF66;
+font-weight: bold;
+text-align:left;
+font-style:italic;
+}
+dt{
+color:#FFFF66;
+font-weight: bold;
+text-align:left;
+font-style:italic;
+}
+
+a:hover {
+	font-weight:bolder;
+	color:#660033;
+	text-decoration:underline;
+	background-color:#66FFFF;
+	font-size:16pt;
+}
+
+a{
+	color:#CC3333;
+	display:block;
+	
+}
+
+a:visited {
+	background-color:#FFFFFF; 
+	color:#A88037;
+	text-decoration:none;
+}
+
+#copyicon{
+	background-color:coral;
+	background-size:contain;
+	height:30px;
+	width:20%;
+	margin-left: auto;
+    margin-right: auto;
+	font-size:9pt;
+	
+}
+.text_alignment{
+text-align:center;
+}

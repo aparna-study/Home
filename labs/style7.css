@@ -1,0 +1,79 @@
+.para2 {text-align:justify;font-size:14pt;	background-color:#CC99FF; word-spacing:5pt; text-justify:inter-word;}
+#para {
+text-align: center;font-size:12pt;background-color:#FF1975;font-weight:bold;color:#FFFFFF;
+}
+#SecHead {
+text-align: center;
+color:#000066;
+font-size:14pt;
+
+}
+body {
+background-color:#FF99FF;
+font-style:normal;
+font-size:medium;
+font-family: Arial;
+font-weight:normal;
+color:#000066;
+}
+h1{
+color:#660033;
+font-style:italic;
+font-size:25pt;
+font-family:"Lucida Handwriting";
+font-weight: bold;
+text-align:center;
+background-color:#FFCCCC;
+}
+a:hover {
+font-weight:bolder;
+font-size:20pt;
+ color:#800000; 
+ text-decoration:underline;
+ }
+.hyperlinkAlign{
+text-align: left; 
+color:#000099;
+font-size:medium ;
+font-style:italic;
+	background-color:#CC99FF;
+	font-weight:lighter;
+	margin-left:1em
+}
+
+#highlighter { font-size:medium ;font-style:italic;color:#FF0000;}
+#break1{
+ text-align: center;background-color:#FF0066;width: 40%;height:5px;display: block;
+}
+#break2{
+ text-align: center;background-color:#FF0066;width: 30%;height:5px;display: block;
+}
+#break3{
+ text-align: center;background-color:#FF0066;width: 20%;height:5px;display: block;
+}
+#break4{
+ text-align: center;background-color:#FF0066;width: 10%;height:5px;display: block;
+}
+#image1{
+	border:5px ridge #CC66FF; 
+	border-width: 10px;
+	padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+	
+ }
+ #image2{
+  float:right;
+  border:5px ridge #CC33FF; 
+ border-width: 10px; 
+ margin:0px 30px 20px 30px; 
+ }
+.para3{
+border:5px ridge #CC66FF; 
+border-width: 10px;
+padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}

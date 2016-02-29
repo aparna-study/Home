@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment 2: Order.html</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Aparna Kulkarni">
+		<meta name=" viewport" content=" width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="order.css" media="screen">
+	</head>
+	
+	<body>
+		<header class="text_alignment">
+			<h1> Order Information</h1>
+			<hr><nav>
+		<a href="index.html">Home </a> &nbsp;|&#160;
+			<a href="about.html">About Us</a> &nbsp;|&#160;
+			<a href="faq.html">FAQ's </a> &nbsp;|&#160;
+			<a href="product.html">Product</a> &nbsp;|&#160;
+			<a href="order.html">Order</a> &nbsp;|&#160;
+			<a href="new.html">What's New </a> &nbsp;|&#160;
+			<a href="support.html">Support </a> &nbsp;|&#160;
+		    <a href="contact.html">Contact Us</a> &nbsp;|&#160;
+			<a href="jobs.html">Jobs</a> &nbsp;|&#160;
+			<a href="multimedia.html">Multimedia</a> </nav>
+		<hr>
+		</header>
+		
+		<section id="section1">
+		<form>
+			<h2>Customer Information</h2>
+			<table cellspacing="10" cellpadding="10">
+			<tr>
+				<td width="40%"><label for="fname">First Name:</label></td>
+				<td><input type="text" class="text" name="fname" id="fname" autofocus placeholder="Your First Name"></td>
+			
+			</tr>
+			<tr>
+				<td width="40%"><label for="lname">Last Name:</label></td>
+				<td><input type="text" class="text" name="lname" id="lname" autofocus placeholder="Your Last Name"></td>
+			
+			</tr>
+			<tr>
+				<td width="40%"><label for="strname">Street Name: </label></td>
+				<td><input type="text" class="text" name="strname" id="strname" placeholder="Your Street Name"></td>
+			
+			</tr>
+			<tr>
+				<td width="40%"><label for="city">City:</label></td>
+				<td><input type="text" class="text" name="city" id="city" autofocus placeholder="Your city Name"></td>
+			
+			</tr>
+			
+			<tr>
+				<td width="40%"><label for="state">State:</label></td>
+				<td><input type="text" class="text" name="state" id="state" autofocus placeholder="Your state"></td>
+			
+			</tr>
+			
+			<tr>
+				<td width="40%"><label for="zip">Zip:</label></td>
+				<td><input type="text" class="text" name="zip" id="zip" autofocus placeholder="Zip Code"></td>
+			
+			</tr>
+			
+			<tr>
+				<td><label for="phone">Telephone Phone: </label>  </td>
+				<td><input type="tel"  name="phone" id="phone"></td>
+			
+			</tr>
+			
+			<tr>
+				<td><label for="email">Your Email: </label></td>
+				<td><input type="email" name="email" id="email" class="text" placeholder="Your email"></td>
+			
+			</tr>
+			
+			<tr>
+				<td><label for="crnum">Credit Card Number: </label>  </td>
+				<td><input type="text"  name="crnum" id="crnum" maxlength="16"></td>
+			
+			</tr>
+			
+			<tr>
+				<td><label for="nearcounty"> Credit Card Type:</label></td>
+				<td><input type="text" name="crdtype" id="crdtype" list="crtype"></td>
+			</tr>
+				<datalist id="crtype">
+					<option value="American Express">
+					<option value="MasterCard">
+					<option value="Visa">
+					<option value="Diners Club">
+					<option value="Discover">
+					<option value="JCB">
+					<option value="maestro">
+				</datalist>
+			
+			<tr>
+				<td><label for="expdate"> Credit Card Expiration Date:</label></td>
+				<td><input type="month" name="expdate" id="expdate"><br></td>
+			
+			</tr>
+			<tr>
+				<td><label> Add Your Comments to Let Us know about your Interests</label><br></td>
+				<td><textarea name="comments" id="interestcomm" rows="5" cols="70">	</textarea></td>
+			</tr>
+			
+			</table>
+		</form>
+		</section>
+		
+		<section id="section2">
+		<form id="prodinfo">
+			<h2>Product Information</h2>
+							
+			<table cellspacing="5" cellpadding="5">
+			<tr>
+				<th width="10%"><label for="category">Category</label></th>
+				<th width="10%"><label for="desc">Description</label></th>
+				<th width="10%"><label for="unpri">Unit Price</label></th>
+				<th width="10%"><label for="quantity">Quantity</label></th>
+				<th width="10%"><label for="ttlpr">Total Price</label></th>
+				
+			
+			</tr>
+			<tr>
+				<td> 1 Paper</td>
+				<td>Paper Cards</td> 
+				<td> $2 </td>
+				<td><input type="text" name="quantity" id="quantitycard" placeholder="What quantity to purchase"></td>
+				<td><input type="text" name="ttlpr" id="ttlprcard" placeholder="Total price for quantity"></td>
+			</tr>
+			
+			
+			<tr>
+				<td></td>
+				<td>Paper Frames</td>  
+				<td> $6	</td>
+				<td><input type="text" name="quantity" id="quantityfr" placeholder="What quantity to purchase"></td>
+				<td><input type="text" name="ttlpr" id="ttlprfr" placeholder="Total price for quantity"></td>
+			</tr>
+			
+			<tr> 
+			<th colspan="5" bgcolor="lightblue" align="right">Subtotal:
+			<input type="text" name="subttlpr" id="subttlpr" placeholder="Total price for quantity"></th>
+			</tr>
+	
+			<tr>
+				<td> 2 Wooden</td>
+				<td>Wooden Candle Stand</td> 
+				<td> $5 </td>
+				<td><input type="text" name="quantity" id="quantitywcand" placeholder="What quantity to purchase"></td>
+				<td><input type="text" name="ttlpr" id="ttlprwcand" placeholder="Total price for quantity"></td>
+			</tr>
+			
+			<tr>
+				<td></td>
+				<td>Wooden Frames</td>  
+				<td> $10	</td>
+				<td><input type="text" name="quantity" id="quantitywfr" placeholder="What quantity to purchase"></td>
+				<td><input type="text" name="ttlpr" id="ttlprwfr" placeholder="Total price for quantity"></td>
+			</tr>
+		  
+		  
+			<tr> 
+			<th colspan="5" bgcolor="lightblue" align="right">Subtotal:
+			<input type="text" name="subttlwoo" id="subttlwoo" placeholder="Total price for quantity"></th>
+			</tr>
+		  
+			<tr> 
+			<th colspan="5" bgcolor="blue" align="right">Total:
+			<input type="text" name="total" id="total" placeholder="Total price for quantity"></th>
+			</tr>
+		  		
+			</table>
+				<input class="button" type="submit" name="SubmitButton" value="Submit">  
+				<input class="button" type="reset" name="ResetButton" value="Reset">
+			</form>
+		</section>
+		<hr>
+	<footer class="text_alignment">
+	<nav>
+			<a href="index.html">Home </a> &nbsp;|&#160;
+			<a href="about.html">About Us</a> &nbsp;|&#160;
+			<a href="faq.html">FAQ's </a> &nbsp;|&#160;
+			<a href="product.html">Product</a> &nbsp;|&#160;
+			<a href="order.html">Order</a> &nbsp;|&#160;
+			<a href="new.html">What's New </a> &nbsp;|&#160;
+			<a href="support.html">Support </a> &nbsp;|&#160;
+		    <a href="contact.html">Contact Us</a> &nbsp;|&#160;
+			<a href="jobs.html">Jobs</a> &nbsp;|&#160;
+			<a href="multimedia.html">Multimedia</a> </nav>
+			<hr>
+			<h5> &copy Aparna K</h5>
+		</footer>	
+			
+</body>
+</html>

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forms HTML5</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Aparna Kulkarni">
+	<link rel="stylesheet" type="text/css" href="style13.css" media="screen">
+</head>
+<body>
+	<header>
+			<h1> Registration Page</h1>
+	</header>
+	<section id="section1">
+		<form action="http://itu.lewebcafe.com/sen910/form.php" method="post" name="form1" id="form1">
+		<fieldset>
+			<legend>Personal Information</legend>
+		<table>
+			<tr>
+				<td width="40%"><label for="name">Name:</label></td>
+				<td><input type="text" class="text" name="name" id="name" autofocus placeholder="Your Full Name"></td>
+			
+			</tr>
+			<tr>
+				<td width="40%"><label for="addr">Address: </label></td>
+				<td><input type="text" class="text" name="addr" id="addr" placeholder="Your Current Address"></td>
+			
+			</tr>
+			<tr>
+				<td><label for="email">Your Email: </label></td>
+				<td><input type="email" name="email" id="email" class="text" placeholder="Your email"></td>
+			
+			</tr>
+			<tr>
+				<td><label for="phone">Phone: </label>  </td>
+				<td><input type="tel"  name="phone" id="phone"></td>
+			
+			</tr>
+			<tr>
+				<td><label for="webs">Website:</label>  </td>
+				<td><input class="text" type="text" name="webs" id="webs"></td>
+			
+			</tr>
+			<tr>
+				<td><label for="nearcounty"> Choose Near By county:</label></td>
+				<td><input type="text" name="nearcounty" id="nearcounty" list="nearbycounty"></td>
+			</tr>
+				<datalist id="nearbycounty">
+					<option value="Santa Clara">
+					<option value="Sonoma">
+					<option value="San Francisco">
+					<option value="Palo Alto">
+					<option value="Santa Cruise">
+					<option value="San Diego">
+					<option value="Los Angeles">
+					<option value="San Mateo">
+					<option value="Monterey">
+					<option value="Alameda">
+					<option value="Riverside">
+					<option value="Orange">
+				</datalist>
+			
+			<tr>
+				<td><label for="myColor"> Choose a color:</label></td>
+				<td><input type="color" name="myColor" id="myColor"><br></td>
+			</tr>
+			<tr>
+				<td><label for="dob"> Date Of Birth:</label></td>
+				<td><input type="date" name="dob" id="dob"><br></td>
+			
+			</tr>
+			<tr>
+				<td><label> Add Your Comments to Let Us know about your Interests</label><br></td>
+				<td><textarea name="comments" id="interestcomm" rows="5" cols="70">	</textarea></td>
+			</tr>
+			<tr>
+				<td><label for="gender">Gender:</label></td>
+				<td><input type="radio" name="gender" id="female" value="female" checked="checked">Female
+				<input type="radio" name="gender" id="male" value="male">Male</td>
+			</tr>
+			
+			</table>
+			</fieldset>
+			<br>
+				<input class="button" type="submit" name="SubmitButton" value="Submit">  
+				<input class="button" type="reset" name="ResetButton" value="Reset">
+			
+			
+		</form>
+	</section>
+</body>
+</html>
+</html>
